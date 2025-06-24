@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashlight Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="flash-container">
+      <div class="flash-indicator"></div>
+    </div>
+    <div class="controls">
+      <button class="start-btn">Start</button>
+      <div class="time-inputs">
+        <div class="input-group">
+          <label>గంటలు</label>
+          <input type="number" class="hours" min="0" value="0">
+          <button class="select-btn hours-btn">ఎంచుకోండి</button>
+        </div>
+        <div class="input-group">
+          <label>నిమిషాలు</label>
+          <input type="number" class="minutes" min="0" value="0">
+          <button class="select-btn minutes-btn">ఎంచుకోండి</button>
+        </div>
+        <div class="input-group">
+          <label>సెకన్లు</label>
+          <input type="number" class="seconds" min="0" value="0">
+          <button class="select-btn seconds-btn">ఎంచుకోండి</button>
+        </div>
+      </div>
+      <button class="select-all-btn">అన్నీ ఎంచుకోండి</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
